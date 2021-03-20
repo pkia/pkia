@@ -3,7 +3,7 @@
 
 - 🌱 I’m currently learning **C++, Dart and Tensorflow 2.0**
 
-- 📄 my [CV](https://docs.google.com/document/d/1aGiGbPIH4lWyxCc3cmjO6L4dqN8AB7DmJfkf-nfjpL4/edit?usp=sharing)
+- 📄 my [CV](https://drive.google.com/file/d/1oNdbDZCroZs7CU8Su9Qxp_3jSlqcT19m/view?usp=sharing)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
