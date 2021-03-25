@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Evan</h1>
 <h3 align="center">A 3rd Year Computer Science Student</h3>
 
-- 🌱 I’m currently learning **C++, Dart and Tensorflow 2.0**
+- 🌱 I’m currently learning **[scikit-learn](https://scikit-learn.org/stable/)**
 
 - 📄 my [CV](https://drive.google.com/file/d/1oNdbDZCroZs7CU8Su9Qxp_3jSlqcT19m/view?usp=sharing)
 
