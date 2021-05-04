@@ -5,6 +5,9 @@
 
 - 📄 my [CV](https://drive.google.com/file/d/1oNdbDZCroZs7CU8Su9Qxp_3jSlqcT19m/view?usp=sharing)
 
+- 📫 evandunb@gmail.com
+
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://www.linkedin.com/in/evan-dunbar-a184641a1/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="evan-james-dunbar-a184641a1/" height="30" width="40" /></a>
