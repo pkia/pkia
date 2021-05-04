@@ -5,7 +5,7 @@
 
 - 📄 my [CV](https://drive.google.com/file/d/1oNdbDZCroZs7CU8Su9Qxp_3jSlqcT19m/view?usp=sharing)
 
-- 📫 evandunb@gmail.com
+- 📫 You can contact me here: evandunb@gmail.com
 
 
 <h3 align="left">Connect with me:</h3>
