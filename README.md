@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm EV</h1>
-<h3 align="center">A 3rd Year Computer Science Student</h3>
+<h3 align="center">A 4th Year Computer Science Student</h3>
 
 - 🌱 I’m currently learning **[Koalas](https://koalas.readthedocs.io/en/latest/), [PySpark](https://spark.apache.org/docs/latest/api/python/index.html)**
 
