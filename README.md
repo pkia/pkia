@@ -1,8 +1,7 @@
 <h1 align="center">Hi 👋, I'm EV</h1>
 <h3 align="center">A 4th Year Computer Science Student</h3>
 
-- 🌱 I’m currently learning **[Koalas](https://koalas.readthedocs.io/en/latest/), [PySpark](https://spark.apache.org/docs/latest/api/python/index.html)**
-
+- 🌱 I’m currently learning Tensorflow-Object_Detection 
 - 📄 my [CV](https://drive.google.com/file/d/1oNdbDZCroZs7CU8Su9Qxp_3jSlqcT19m/view?usp=sharing)
 
 - 📫 Contact: 
