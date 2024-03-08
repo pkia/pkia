@@ -1,8 +1,5 @@
 <h1 align="center">Hi 👋, I'm Evan</h1>
-<h3 align="center">A 4th Year Computer Science Student</h3>
-
-- 🌱 I’m currently learning PyTorch 
-- 📄 my [CV](https://drive.google.com/file/d/1oNdbDZCroZs7CU8Su9Qxp_3jSlqcT19m/view?usp=sharing)
+<h3 align="center">Passion for Distributed systems, Cloud and Space optimisation</h3>
 
 - 📫 Contact: evandunb@gmail.com
 
