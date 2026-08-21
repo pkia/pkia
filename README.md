@@ -1,14 +1,25 @@
-<h1 align="center">Hi 👋, I'm EV</h1>
-<h3 align="center">Passion for Distributed systems, Cloud and Space optimisation</h3>
+### Hi, I'm EV 👋
 
-- 📫 Contact: 
+**Site Reliability Engineer @ an enterprise data-storage company** · Ireland
 
+I keep production systems healthy by day and build self-hosted ones by night.
+My home lab is a Raspberry Pi that runs a 24/7 maritime AIS receiving station
+and a NOAA weather-satellite decoder on Ireland's south coast — all with the
+same CI/CD discipline I use at work: tests on every push, pull-based deploys,
+auto-rollback.
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://www." target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="EV-/" height="30" width="40" /></a>
-</p>
+#### 🔦 Featured work
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"><a href="https://www.docker.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
- <a href="https://pandas.pydata.org/" target="_blank"> <img src="https://pandas.pydata.org/static/img/pandas.svg" alt="pandas" width="40" height="40"/> </a></p>
+- **[Maritime Dashboard](https://github.com/pkia/maritime-dashboard)** — self-hosted AIS ship tracker + NOAA satellite imagery on a Raspberry Pi touchscreen kiosk (RTL-SDR, Flask, pytest CI/CD)
+- **[Project Hub](https://github.com/pkia/project-hub)** — ops portal for my home server: live port and systemd health for every project, with pull-based CD and auto-rollback
+- **[Covid Pool Testing](https://github.com/pkia/Covid-Pool-Testing)** — 🏆 winning entry, the university Cork Open Data Hackathon: binary-splitting optimisation that cut required tests by 45%
+- **[Tweet Guard](https://github.com/pkia/Twitter_Threat_Scanner)** — NLP web app that scans Twitter accounts for abusive or threatening content
+
+#### 🧰 Toolbox
+
+`Python` `JavaScript` `Flask` `Docker` `systemd` `Linux` `Raspberry Pi` `RTL-SDR` `MySQL` `pandas` `GitHub Actions` `pytest`
+
+📫 [](mailto:) · [LinkedIn](https://www.) · [Website](https://pkia.github.io)
+
+---
+![Profile views](https://komarev.com/ghp/chan/?user=pkia)
