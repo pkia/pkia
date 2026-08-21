@@ -8,6 +8,9 @@ receiving station and a NOAA weather-satellite decoder on Ireland's south
 coast — all with production discipline: tests on every push, pull-based
 deploys, auto-rollback.
 
+🔭 Right now my main interest is **vibe coding** — building things fast,
+hand-in-hand with AI, from idea to working software in a conversation.
+
 #### 🔦 Featured work
 
 - **[Maritime Dashboard](https://github.com/pkia/maritime-dashboard)** — self-hosted AIS ship tracker + NOAA satellite imagery on a Raspberry Pi touchscreen kiosk (RTL-SDR, Flask, pytest CI/CD)
