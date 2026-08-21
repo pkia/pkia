@@ -1,12 +1,12 @@
 ### Hi, I'm EV 👋
 
-**Site Reliability Engineer @ an enterprise data-storage company** · Ireland
+**Technical Support Engineer @ an enterprise data-storage company** · Ireland
 
-I keep production systems healthy by day and build self-hosted ones by night.
-My home lab is a Raspberry Pi that runs a 24/7 maritime AIS receiving station
-and a NOAA weather-satellite decoder on Ireland's south coast — all with the
-same CI/CD discipline I use at work: tests on every push, pull-based deploys,
-auto-rollback.
+I solve deep enterprise troubleshooting cases by day and build self-hosted
+systems by night. My home lab is a Raspberry Pi that runs a 24/7 maritime AIS
+receiving station and a NOAA weather-satellite decoder on Ireland's south
+coast — all with production discipline: tests on every push, pull-based
+deploys, auto-rollback.
 
 #### 🔦 Featured work
 
