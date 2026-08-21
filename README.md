@@ -24,5 +24,3 @@ hand-in-hand with AI, from idea to working software in a conversation.
 
 📫 [](mailto:) · [LinkedIn](https://www.) · [Website](https://pkia.github.io)
 
----
-![Profile views](https://count.getloli.com/get/@pkia-github?theme=normal)
