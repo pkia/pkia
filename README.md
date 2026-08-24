@@ -1,12 +1,8 @@
-### Hi, I'm EV 👋
+### Hi, I'm pkia 👋
 
-**Technical Support Engineer @ an enterprise data-storage company** · Ireland
-
-I solve deep enterprise troubleshooting cases by day and build self-hosted
-systems by night. My home lab is a Raspberry Pi that runs a 24/7 maritime AIS
-receiving station and a NOAA weather-satellite decoder on Ireland's south
-coast — all with production discipline: tests on every push, pull-based
-deploys, auto-rollback.
+Maker of self-hosted systems on a Raspberry Pi that runs a 24/7 maritime AIS
+receiving station and a NOAA weather-satellite decoder — all with production
+discipline: tests on every push, pull-based deploys, auto-rollback.
 
 🔭 Right now I'm running a self-improving agent loop: overnight, an agent
 writes the [daily devlog](https://pkia.github.io/blog/) from the git history
@@ -25,10 +21,10 @@ backups.
 - **[CS2 Dashboard](https://github.com/pkia/cs2-dashboard)** — live pro-Counter-Strike tracker for the kitchen kiosk: Liquipedia schedule, bo3.gg match state, HLTV scorebot round scores
 - **[pi-cicd](https://github.com/pkia/pi-cicd)** — the CI/CD architecture repo: project-guard adoption, pull-based deploys with health checks and auto-rollback, and loop-heartbeat — a dead-man's switch for every scheduled job on the Pi
 
-More on GitHub: the winning [Covid Pool Testing](https://github.com/pkia/Covid-Pool-Testing) hackathon optimisation, the [ops portal](https://github.com/pkia/project-hub) for the Pi, and a shelf of smaller experiments.
+More on GitHub: a winning pool-testing hackathon optimisation, the
+[ops portal](https://github.com/pkia/project-hub) for the Pi, and a shelf of
+smaller experiments.
 
 #### 🧰 Toolbox
 
 `Python` `JavaScript` `Flask` `Docker` `systemd` `Linux` `Raspberry Pi` `RTL-SDR` `MySQL` `pandas` `GitHub Actions` `pytest`
-
-📫 [](mailto:) · [LinkedIn](https://www.) · [Website](https://pkia.github.io)
