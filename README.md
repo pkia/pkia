@@ -1,4 +1,4 @@
-### Hi, I'm pkia 👋
+### Hi, I'm EV 👋
 
 Maker of self-hosted systems on a Raspberry Pi that runs a 24/7 maritime AIS
 receiving station and a NOAA weather-satellite decoder — all with production
