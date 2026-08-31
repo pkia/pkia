@@ -4,17 +4,15 @@ I run self-hosted systems on a Raspberry Pi, 24/7 — ship tracking (AIS), NOAA
 satellite decoding, and a handful of web apps. Tests on every push,
 pull-based deploys, auto-rollback.
 
-Right now: an overnight agent loop writes the devlog and ships one idea a
-day — latest, nightly chaos drills that break the box on purpose and check
-it notices: a dead-port drill driven through the real probe pipeline, an
-ntfy fail-closed check, a timer-liveness probe, receipts read back off the
-topic. The hourly CI audit grew a self-healing edition too — it pushes
-stranded commits, re-enables stopped deploy timers and re-runs failed runs
-itself, paging only for real bugs. Under it all: five-minute uptime probes
-with a live scoreboard in the ops portal, borg backups with a
-byte-comparing restore drill, an upstream release watcher, and a morning
-self-audit that checks every project on the box (and resets a wedged SDR
-dongle on its own).
+Right now: the Pi learned to burst. Heavy jobs now spill onto a disposable
+cloud worker (GitHub Codespaces, free tier) through a small provider
+abstraction — a load-aware router decides local vs cloud, jobs run in
+resource-capped Docker containers, artifacts ship back, and a budget ledger
+refuses to provision past 95% of the free core-hour allowance. The Pi stays
+the brain; the worker is cattle, not a pet. Alongside it: weekly memory
+consolidation and a Sunday token-economy digest keep the resident agent
+lean, and the hourly CI audit now self-heals — re-running flakes, pushing
+stranded commits — instead of paging.
 
 **Repos**
 
@@ -24,4 +22,4 @@ dongle on its own).
 - [maritime-dashboard](https://github.com/pkia/maritime-dashboard) — AIS + satellite imagery on a kitchen kiosk
 - [cs2-dashboard](https://github.com/pkia/cs2-dashboard) — live pro-CS2 tracker
 
-`Python` `Linux` `systemd` `Raspberry Pi` `pytest` `GitHub Actions`
+`Python` `Linux` `systemd` `Raspberry Pi` `pytest` `GitHub Actions` `Docker`
