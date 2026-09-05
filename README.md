@@ -4,27 +4,28 @@ I run self-hosted systems on a Raspberry Pi, 24/7 — ship tracking (AIS), NOAA
 satellite decoding, and a handful of web apps. Tests on every push,
 pull-based deploys, auto-rollback.
 
-Right now: Hermes Train closed its last proof link — the full chain, fresh
-install to scored scenario, is validated end to end — and shipped its
-control plane: a server state machine with an SSE event bus, an
-eight-page control-centre UI, a live drill queue, watchdogs and daily
-backups, 75/75 tests. Only the human play-test is left. On the ops side,
-the radar agent went mining the heal ledger and found it had never
-existed — install.sh shipped 8 of 10 tools, so the self-healers were
-never deployable; the installer is fixed and regression-bound (pi-cicd
-e4c1293), and re-running it on the box is the pending step. Next pick on
-the board: Grafana step 2 — one pinned dashboard, alerting through
-ntfy_lib. Prometheus 2.53.3 + node_exporter keep scraping loopback-bound
-at ~102 MB. The burst worker still handles the heavy jobs — load-aware
-routing to disposable Codespaces, resource-capped Docker jobs, artifacts
-shipped back, a budget ledger that refuses to exhaust the free tier. The
-Pi stays the brain; the worker is cattle, not a pet.
+Right now: Hermes Train's coach grew a brain — a 44-skill genome with
+root-cause diagnosis, adaptive session generation, demo-coach analysis, and
+weekly reports that answer "what should I train" with data, or honestly with
+"not enough data" (149 tests). The server-side chain is proven end to end with
+bots; the human play-test is the last link. Two of the box's earlier verdicts
+got corrected by evidence the same day: the 14-hour pod dry spell was a
+snake_case parse bug, not the cloud (fixed, regression-locked), and the
+self-healers were Hermes-cron jobs, live and green all along — the empty heal
+ledger just means a healthy box (pi-cicd f925967). The practice server never
+needed a GPU, so server_manager gained a Hetzner provider for GPU-free
+hosting. Next pick on the radar board: Grafana step 2 — one pinned dashboard,
+alerting through ntfy_lib. Prometheus 2.53.3 + node_exporter keep scraping
+loopback-bound at ~102 MB. The burst worker still handles the heavy jobs —
+load-aware routing to disposable Codespaces, resource-capped Docker jobs,
+artifacts shipped back, a budget ledger that refuses to exhaust the free
+tier. The Pi stays the brain; the worker is cattle, not a pet.
 
 **Repos**
 
-- [pi-cicd](https://github.com/pkia/pi-cicd) — the CI/CD pattern behind it all: health checks, auto-rollback, dead-man's switches, ntfy alerts + kill switch, borg backups + restore drills, release watching, uptime probes, nightly chaos drills, a self-healing CI audit that logs every fix to a ledger the portal shows, and a Prometheus + node_exporter scrape backbone (~102 MB, loopback-bound, config under test) — plus a tested architecture reference for the whole box, and an installer regression-bound to ship every tool (mining the heal ledger caught two it had never linked)
-- [radar](https://github.com/pkia/radar) — idea ledger an overnight agent loop works through, one ship a day
-- [Hermes Train](https://pkia.github.io/projects/cs2-train/) — a personal CS2 coach: CounterStrikeSharp plugin measuring real mechanics server-side, 495 scenarios, deliberate-practice sessions, and a control centre — server state machine, SSE event bus, live drill queue — validated end to end on a fresh install (repo private, project tour public)
+- [pi-cicd](https://github.com/pkia/pi-cicd) — the CI/CD pattern behind it all: health checks, auto-rollback, dead-man's switches, ntfy alerts + kill switch, borg backups + restore drills, release watching, uptime probes, nightly chaos drills, a self-healing CI audit that logs every fix to a ledger the portal shows, and a Prometheus + node_exporter scrape backbone (~102 MB, loopback-bound, config under test) — plus a tested architecture reference for the whole box, and an installer regression-bound to ship every tool (a ledger dig that once cried "never deployed" corrected itself: the healers were Hermes-cron jobs all along)
+- [radar](https://github.com/pkia/radar) — idea ledger an overnight agent loop works through, one ship a day — twelve ledger entries and counting
+- [Hermes Train](https://pkia.github.io/projects/cs2-train/) — a personal CS2 coach: CounterStrikeSharp plugin measuring real mechanics server-side, 495 scenarios, deliberate-practice sessions, and a coach brain (skill genome, adaptive sessions, demo analysis) — game server on GPU-free Hetzner boxes, control plane on the Pi (repo private, project tour public)
 - [shelfmate](https://github.com/pkia/shelfmate) — paste a Goodreads profile, get book recommendations with reasons
 - [maritime-dashboard](https://github.com/pkia/maritime-dashboard) — AIS + satellite imagery on a kitchen kiosk
 
