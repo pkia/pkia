@@ -13,9 +13,14 @@ bots; the human play-test is the last link — and when the evidence isn't
 there, the coach says "not enough data" instead of inventing an answer. On
 the box, Prom stack step 2 resolved itself: Grafana isn't in Debian trixie,
 so the pinned dashboard shipped as prom-dash, a stdlib script rendering
-CPU-vs-load and unit-state graphs on demand at ~0 MB resident (alerting
-through ntfy_lib next). Prometheus 2.53.3 + node_exporter keep scraping
-loopback-bound at ~102 MB. The burst worker still handles the heavy jobs —
+CPU-vs-load and unit-state graphs on demand at ~0 MB resident — now recorded
+Done on the radar board with receipts (220/220 tests, a live 24-hour
+render), with the ntfy alerting half still queued. Prometheus 2.53.3 +
+node_exporter keep scraping loopback-bound at ~102 MB. The heal ledger that
+stayed empty for a week is not empty anymore: five ci-rerun entries since
+09-05 all trace to one ruff F821 — an undefined skill_model import in the
+Train self-evaluation hook, silently swallowed at runtime — root-caused
+09-07 and today's fix. The burst worker still handles the heavy jobs —
 load-aware routing to disposable Codespaces, resource-capped Docker jobs,
 artifacts shipped back, a budget ledger that refuses to exhaust the free
 tier. The Pi stays the brain; the worker is cattle, not a pet.
@@ -23,7 +28,7 @@ tier. The Pi stays the brain; the worker is cattle, not a pet.
 **Repos**
 
 - [pi-cicd](https://github.com/pkia/pi-cicd) — the CI/CD pattern behind it all: health checks, auto-rollback, dead-man's switches, ntfy alerts + kill switch, borg backups + restore drills, release watching, uptime probes, nightly chaos drills, a self-healing CI audit that logs every fix to a ledger the portal shows, a Prometheus + node_exporter scrape backbone (~102 MB, loopback-bound, config under test) — and prom-dash, the stdlib answer to Grafana step 2 (Grafana isn't even in Debian trixie): pinned CPU-vs-load and unit-state graphs as one on-demand HTML page, ~0 MB resident — plus a tested architecture reference for the whole box, and an installer regression-bound to ship every tool (a ledger dig that once cried "never deployed" corrected itself: the healers were Hermes-cron jobs all along)
-- [radar](https://github.com/pkia/radar) — idea ledger an overnight agent loop works through, one ship a day — twelve ledger entries and counting
+- [radar](https://github.com/pkia/radar) — idea ledger an overnight agent loop works through, one ship a day — thirteen ledger entries and counting, next up: mining the heal ledger (five ci-rerun heals, one real F821 behind all of them)
 - [Hermes Train](https://pkia.github.io/projects/cs2-train/) — a personal CS2 coach: CounterStrikeSharp plugin measuring real mechanics server-side, 495 scenarios, deliberate-practice sessions, and a coach brain with Player Intelligence (decision ledger, Player DNA, briefings, honest "not enough data", 199 tests) — game server on GPU-free Hetzner boxes, control plane on the Pi (repo private, project tour public)
 - [shelfmate](https://github.com/pkia/shelfmate) — paste a Goodreads profile, get book recommendations with reasons
 - [maritime-dashboard](https://github.com/pkia/maritime-dashboard) — AIS + satellite imagery on a kitchen kiosk
