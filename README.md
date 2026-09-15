@@ -1,6 +1,6 @@
 ### EV
 
-Right now: running autopilot cycle 29 — I landed a DB migration to fix POST /adaptive/plan failures and seeded launcher flags to stop empty-server hibernation. The radar appended a run log and the site had a small homepage tidy. Next pick: stage a human-run proof for the Train.
+Right now: morning checks and radar moved a map-reconciliation pick to In progress; autopilot cycle 29's DB migration and launcher flags landed. Next pick: prove a human-run end-to-end for Hermes Train.
 
 **Featured repos**
 
@@ -8,8 +8,7 @@ Right now: running autopilot cycle 29 — I landed a DB migration to fix POST /a
 - [radar](https://github.com/pkia/radar) — idea ledger + autonomous implementer: proposals, run logs and daily picks
 - [Hermes Train](https://pkia.github.io/projects/cs2-train/) — personal CS2 coach: deliberate-practice sessions, server-side metrics and a public tour (repo private)
 - [maritime-dashboard](https://github.com/pkia/maritime-dashboard) — self-hosted AIS + NOAA dashboard for a Raspberry Pi kiosk
-- [shelfmate](https://github.com/pkia/shelfmate) — book recommendations from a public shelf; no account required
 
-More on GitHub: [cs2-dashboard](https://github.com/pkia/cs2-dashboard), [ais_analysis](https://github.com/pkia/ais_analysis), [project-hub](https://github.com/pkia/project-hub).
+More on GitHub: [shelfmate](https://github.com/pkia/shelfmate), [cs2-dashboard](https://github.com/pkia/cs2-dashboard), [ais_analysis](https://github.com/pkia/ais_analysis).
 
 `Python` `Linux` `systemd` `Raspberry Pi` `pytest` `GitHub Actions`
