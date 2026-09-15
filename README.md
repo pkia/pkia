@@ -1,6 +1,6 @@
 ### EV
 
-Right now: morning checks and radar moved a map-reconciliation pick to In progress; autopilot cycle 29's DB migration and launcher flags landed. Next pick: prove a human-run end-to-end for Hermes Train.
+Right now: four repos went public today (a two-player co-op Sudoku PWA, a personal CS2 match tracker, the agents' mission-control dashboard, plus sat-audio already public) — all identity- and infra-scrubbed, history included.
 
 **Featured repos**
 
@@ -8,7 +8,9 @@ Right now: morning checks and radar moved a map-reconciliation pick to In progre
 - [radar](https://github.com/pkia/radar) — idea ledger + autonomous implementer: proposals, run logs and daily picks
 - [Hermes Train](https://pkia.github.io/projects/cs2-train/) — personal CS2 coach: deliberate-practice sessions, server-side metrics and a public tour (repo private)
 - [maritime-dashboard](https://github.com/pkia/maritime-dashboard) — self-hosted AIS + NOAA dashboard for a Raspberry Pi kiosk
+- [sudoku](https://github.com/pkia/sudoku) — two-player co-op Sudoku PWA: one passcode, live WebSocket-synced board, genuine generator
+- [cs2-tracker](https://github.com/pkia/cs2-tracker) — personal CS2 stats: FACEIT API + live GSI capture for Valve Premier, one dashboard
 
-More on GitHub: [shelfmate](https://github.com/pkia/shelfmate), [cs2-dashboard](https://github.com/pkia/cs2-dashboard), [ais_analysis](https://github.com/pkia/ais_analysis).
+More on GitHub: [mission-control](https://github.com/pkia/mission-control) (agent-workload dashboard), [shelfmate](https://github.com/pkia/shelfmate), [cs2-dashboard](https://github.com/pkia/cs2-dashboard), [sat-audio](https://github.com/pkia/sat-audio).
 
 `Python` `Linux` `systemd` `Raspberry Pi` `pytest` `GitHub Actions`
