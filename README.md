@@ -1,6 +1,6 @@
 ### EV
 
-Right now: autopilot cycle 30 capped live targets in the CS2 drill engine at five bots, three kiosk services were retired (code kept public), and four repos went public this week — a two-player co-op Sudoku PWA, a personal CS2 match tracker, the agents' mission-control dashboard and a satellite-audio tap.
+Right now: the radar loop reconciled the CS2 coach's whole scenario corpus — every slug mapped to a real map, route, difficulty and mode, re-measured on every push — and the Pi's morning audit stopped un-retiring services I'd deliberately turned off. The open item on the coach is the human gate: one real player in the seat.
 
 **Featured repos**
 
