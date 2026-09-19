@@ -1,6 +1,6 @@
 ### EV
 
-Right now: the radar loop reconciled the CS2 coach's whole scenario corpus — every slug mapped to a real map, route, difficulty and mode, re-measured on every push — and the Pi's morning audit stopped un-retiring services I'd deliberately turned off. The open item on the coach is the human gate: one real player in the seat.
+Right now: the CS2 coach's drill chat states the staged truth — five bots at a time, and it says so — and its dashboard has one canonical CT blue locked down by tests. On the Pi, the probe tool dropped two endpoints that had been dead for thousands of sweeps and now names the next leftover itself. The open item on the coach is still the human gate: one real player in the seat.
 
 **Featured repos**
 
