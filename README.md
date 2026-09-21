@@ -1,6 +1,6 @@
 ### EV
 
-Right now: the CS2 coach's dashboard draws every colour from one token scale, now that the blue's rgba twin spelling is gone and tests hold the line. On the Pi, a single retired-units list feeds the morning audit, the probe tool and the unit index, and probes ask bounded status endpoints instead of reading streams that never end. The open item on the coach is still the human gate: one real player in the seat.
+Right now: the CS2 coach console lost its last raw render sinks and gained a Content-Security-Policy, nosniff on every route, and a parked-telemetry banner. Its colour audit went palette-agnostic: any literal outside :root must be declared, and a declared one that vanishes fails as stale — 84 baselined, visible but not tokenised. On the Pi, one retired-units list feeds the morning audit, the probe tool and the unit index. The open item on the coach is still the human gate: one real player in the seat.
 
 **Featured repos**
 
