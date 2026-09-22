@@ -1,6 +1,6 @@
 ### EV
 
-Right now: the CS2 coach console lost its last raw render sinks and gained a Content-Security-Policy, nosniff on every route, and a parked-telemetry banner. Its colour audit went palette-agnostic: any literal outside :root must be declared, and a declared one that vanishes fails as stale — 84 baselined, visible but not tokenised. On the Pi, one retired-units list feeds the morning audit, the probe tool and the unit index. The open item on the coach is still the human gate: one real player in the seat.
+Right now: the CS2 coach's operator shells mint a fresh CSP nonce per response and the `script-src` carve-out is gone; the remaining `style-src` allowance is a measured 256 inline attributes, filed with per-file counts. Its colour audit keeps any literal outside `:root` declared, and a declared one that vanishes fails as stale. On the Pi, one retired-units list feeds the morning audit, the probe tool and the unit index. The open item on the coach is still the human gate: one real player in the seat.
 
 **Featured repos**
 
