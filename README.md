@@ -1,6 +1,6 @@
 ### EV
 
-Right now: the CS2 coach's production database is purged of its placeholder-identity footprint — 27 rows out behind an online backup, a row archive and a hash manifest — and its upstream practice-profile listing is pinned by blob sha, so a profile edited or deleted upstream can no longer pass unnoticed. The remaining `style-src` allowance is still a measured 256 inline attributes, filed with per-file counts. The open item on the coach is still the human gate: one real player in the seat.
+Right now: the CS2 coach's operator shells are on a nonce-only CSP — all 256 inline style attributes are classes now, so `style-src` has no escape hatch left — and every route checks for a credential before it routes, instead of trusting a CI-only manifest lock. The open item is unchanged, and it isn't code: one real player in the seat. Next up on the idea board is colour-literal drift, one page at a time.
 
 **Featured repos**
 
