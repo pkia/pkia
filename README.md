@@ -1,6 +1,6 @@
 ### EV
 
-Right now: the CS2 coach's operator shells are on a nonce-only CSP — all 256 inline style attributes are classes now, so `style-src` has no escape hatch left — and every route checks for a credential before it routes, instead of trusting a CI-only manifest lock. The open item is unchanged, and it isn't code: one real player in the seat. Next up on the idea board is colour-literal drift, one page at a time.
+Right now: the CS2 coach's operator shells run a nonce-only CSP behind a runtime credential check, and its reconciler now measures the upstream profile claim from a pinned listing instead of marking it unmeasured. The synthetic verification accounts are out of production, behind a backup and a hash manifest. The open item is unchanged, and it isn't code: one real player in the seat. Next on the idea board: the Pi doctor writing down a power-cut dark window, then colour-literal drift one page at a time.
 
 **Featured repos**
 
