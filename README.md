@@ -1,6 +1,6 @@
 ### EV
 
-Right now: the home-lab Pi records its own outages — a boot check measures how long the box was dark after a power cut, from the clock file systemd leaves behind, before NTP overwrites the evidence. The CS2 coach's cost guard refuses any row it can't parse before it deletes anything, and now proves snapshot provenance at the provider instead of refusing forever. The open item is unchanged, and it isn't code: one real player in the seat. Next on the idea board: putting the upstream profile pin on a drift timer.
+Right now: the home-lab Pi records its own outages — a boot check measures how long the box was dark, from the clock file systemd leaves behind, before NTP overwrites the evidence. The CS2 coach's cost guard refuses any row it can't parse before deleting, and now proves snapshot provenance at the provider instead of refusing forever. The open item is unchanged, and it isn't code: one real player in the seat. Next on the idea board: putting the upstream profile pin on a drift timer.
 
 **Featured repos**
 
