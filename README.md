@@ -1,15 +1,15 @@
 ### EV
 
-Right now: the home-lab Pi records its own outages — a boot check measures how long the box was dark, from the clock file systemd leaves behind, before NTP overwrites the evidence. The CS2 coach's cost guard refuses any row it can't parse before deleting, and now proves snapshot provenance at the provider instead of refusing forever. The open item is unchanged, and it isn't code: one real player in the seat. Next on the idea board: putting the upstream profile pin on a drift timer.
+Right now: the home-lab Pi writes down its own failures. A 20-hour blackout showed the new boot check is false-negative — it subtracts the timesyncd clock file from itself — and that fix is next on the board. A new repo copies Telegram forex signals into a risk-managed, dry-run account; its backtest found two real bugs and one of its own, and says the channel's marketing doesn't survive execution. On the CS2 coach, the dependency lock now proves provenance instead of assuming it.
 
 **Featured repos**
 
-- [pi-cicd](https://github.com/pkia/pi-cicd) — pull-based CI/CD for the Pi: auto-rollback, service probes, restore drills, and a boot check that records how long the box was dark
+- [pi-cicd](https://github.com/pkia/pi-cicd) — pull-based CI/CD for the Pi: auto-rollback, service probes, restore drills, and a boot check for power-cut blackouts (still false-negative on the first real one)
 - [radar](https://github.com/pkia/radar) — idea ledger + autonomous implementer: proposals, run logs and daily picks
 - [Hermes Train](https://pkia.github.io/projects/cs2-train/) — personal CS2 coach: deliberate-practice sessions, server-side metrics and a public tour (repo private)
+- forex-copybot (repo private) — Telegram-signal copier for a risk-managed account: dry-run only, 187 tests, and a backtest that disagrees with its source
 - [maritime-dashboard](https://github.com/pkia/maritime-dashboard) — self-hosted AIS + NOAA dashboard for a Raspberry Pi kiosk
-- [sudoku](https://github.com/pkia/sudoku) — two-player co-op Sudoku PWA: one passcode, live WebSocket-synced board, genuine generator
 
-More on GitHub: [mission-control](https://github.com/pkia/mission-control) (agent-workload dashboard), [project-hub](https://github.com/pkia/project-hub), [shelfmate](https://github.com/pkia/shelfmate), [cs2-tracker](https://github.com/pkia/cs2-tracker), [sat-audio](https://github.com/pkia/sat-audio).
+More on GitHub: [mission-control](https://github.com/pkia/mission-control) (agent-workload dashboard), [project-hub](https://github.com/pkia/project-hub), [shelfmate](https://github.com/pkia/shelfmate), [sudoku](https://github.com/pkia/sudoku), [cs2-tracker](https://github.com/pkia/cs2-tracker), [sat-audio](https://github.com/pkia/sat-audio).
 
 `Python` `Linux` `systemd` `Raspberry Pi` `pytest` `GitHub Actions`
