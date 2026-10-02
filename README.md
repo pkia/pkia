@@ -1,10 +1,10 @@
 ### EV
 
-Right now: the signal copier trades a small real account, and its ledger now refuses to book a result without a measured exit price — the kill switch had already fired once on a phantom loss. Stops trail to the TP2–TP3 midpoint and pending entries rest for seven days. On the Pi, a watchdog alerts when the copier's coverage goes quiet, and the X poster's image path is public again after three silent days.
+Right now: the signal copier evaluates a call that arrives while it restarts instead of filing it as history, and sizes entries off only the conversion legs a trade needs. On the Pi, backups dump live SQLite databases through the database's own API rather than racing borg against them, and the X poster's media path has a probe that checks it from where the platform fetches it. The CS2 coach's database liveness gate now holds on disk as well as tmpfs.
 
 **Featured repos**
 
-- [pi-cicd](https://github.com/pkia/pi-cicd) — pull-based CI/CD for the Pi: auto-rollback, service probes, restore drills, and a power-cut check that reports when its own timer is missing
+- [pi-cicd](https://github.com/pkia/pi-cicd) — pull-based CI/CD for the Pi: auto-rollback, service probes, restore drills, and backups that snapshot live databases instead of racing them
 - [radar](https://github.com/pkia/radar) — idea ledger + autonomous implementer: proposals, run logs and daily picks
 - [Hermes Train](https://pkia.github.io/projects/cs2-train/) — personal CS2 coach: deliberate-practice sessions, server-side metrics and a public tour (repo private)
 - forex-copybot (repo private) — Telegram-signal copier for a risk-managed account: regex first, a model for the rest, and every booked result tied to a measured exit price
