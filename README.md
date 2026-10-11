@@ -1,10 +1,10 @@
 ### EV
 
-Right now: the decommission tool learned to assert rather than list — `--check` exits non-zero while a project still owns a unit or cron job it could remove. A readiness cycle on the CS2 coach caught a committed fix the box had spent two days not running; the last gate there is still a real player in the seat.
+Right now: pi-cicd can tell when a service is older than its code — `staleness` reports the unit, its start time and the commit it missed, and cannot restart anything itself. Next on the board: the remote half of the decommission registry, which needs the idle VPS, and per-player death attribution in the CS2 coach.
 
 **Featured repos**
 
-- [pi-cicd](https://github.com/pkia/pi-cicd) — pull-based CI/CD for the Pi: auto-rollback, service probes, backups that rehearse before pruning, and a decommission runbook that can fail its own check
+- [pi-cicd](https://github.com/pkia/pi-cicd) — pull-based CI/CD for the Pi: auto-rollback, service probes, rehearsed backups, a decommission runbook and a staleness report that names a service older than its code
 - [radar](https://github.com/pkia/radar) — idea ledger + autonomous implementer: proposals, run logs and daily picks
 - [Hermes Train](https://pkia.github.io/projects/cs2-train/) — personal CS2 coach: deliberate-practice sessions, server-side metrics and in-game drill route lines (repo private)
 - [maritime-dashboard](https://github.com/pkia/maritime-dashboard) — self-hosted AIS + NOAA dashboard for a Raspberry Pi kiosk
