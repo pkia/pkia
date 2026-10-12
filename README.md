@@ -1,6 +1,6 @@
 ### EV
 
-Right now: pi-cicd can tell when a service is older than its code — `staleness` reports the unit, its start time and the commit it missed, and cannot restart anything itself. Next on the board: the remote half of the decommission registry, which needs the idle VPS, and per-player death attribution in the CS2 coach.
+Right now: the box is short of evidence — it went down uncleanly and the journal lives in RAM, so the minutes before the stop exist nowhere. Next on the board: make that slice durable, make an unpostable queue item skip instead of blocking every posting window, and per-player death attribution in the CS2 coach.
 
 **Featured repos**
 
