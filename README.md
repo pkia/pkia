@@ -4,7 +4,7 @@ Right now: the home lab was rebuilt on a fresh Raspberry Pi 5 and came back as a
 
 **Featured repos**
 
-- [switch-l4t-gpu](https://github.com/pkia/switch-l4t-gpu) — CUDA on a Nintendo Switch: native on-console compile path, verified SGEMM and bandwidth kernels at 99% of the FMA ceiling, plus a task-queue contract for cluster use
+- [switch-l4t-gpu](https://github.com/pkia/switch-l4t-gpu) — CUDA on a Nintendo Switch: native on-console compile path, hand-written PTX at 99% of the chip's FMA ceiling, SGEMM + bandwidth verified on-device, plus a task-queue contract for cluster use
 - [pi-cicd](https://github.com/pkia/pi-cicd) — pull-based CI/CD for the Pi: auto-rollback, service probes, rehearsed backups, a decommission runbook, and a staleness report with an allowlist for pairs meant to be stale
 - [radar](https://github.com/pkia/radar) — idea ledger + autonomous implementer: proposals, run logs and daily picks
 - [Hermes Train](https://pkia.github.io/projects/cs2-train/) — personal CS2 coach: deliberate-practice sessions, server-side metrics and in-game drill route lines (repo private)
