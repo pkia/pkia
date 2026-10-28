@@ -1,11 +1,11 @@
 ### EV
 
-Right now: the home lab was rebuilt on a fresh Raspberry Pi 5 and came back as a two-node cluster — the Pi dispatches compute units, a Nintendo Switch across the LAN does the CUDA on its Tegra X1. The GPU toolchain that makes that possible is now public, a chaos soak is running against the live cluster, and the devlog + radar loop is back on schedule.
+Right now: the rebuilt lab runs as a two-node cluster — a Raspberry Pi dispatching compute units, a Nintendo Switch across the LAN doing the CUDA. The nightly backup now proves crash receipts survive the disk, the chaos soak's verdict lands this morning, and the GPU task queue is learning the harness's JSON contract. Devlog and radar loop back on schedule.
 
 **Featured repos**
 
 - [switch-l4t-gpu](https://github.com/pkia/switch-l4t-gpu) — CUDA on a Nintendo Switch: native on-console compile path, hand-written PTX at 99% of the chip's FMA ceiling, SGEMM + bandwidth verified on-device, plus a task-queue contract for cluster use
-- [pi-cicd](https://github.com/pkia/pi-cicd) — pull-based CI/CD for the Pi: auto-rollback, service probes, rehearsed backups, a decommission runbook, and a staleness report with an allowlist for pairs meant to be stale
+- [pi-cicd](https://github.com/pkia/pi-cicd) — pull-based CI/CD for the Pi: auto-rollback deploys, service probes, rehearsed backups that now carry the crash receipts, a decommission runbook, and a staleness report
 - [radar](https://github.com/pkia/radar) — idea ledger + autonomous implementer: proposals, run logs and daily picks
 - [Hermes Train](https://pkia.github.io/projects/cs2-train/) — personal CS2 coach: deliberate-practice sessions, server-side metrics and in-game drill route lines (repo private)
 - [maritime-dashboard](https://github.com/pkia/maritime-dashboard) — self-hosted AIS + NOAA dashboard for a Raspberry Pi kiosk
