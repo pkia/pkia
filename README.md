@@ -1,6 +1,6 @@
 ### EV
 
-Right now: the rebuilt lab runs as a two-node cluster — a Raspberry Pi dispatching compute units, a Nintendo Switch across the LAN doing the CUDA. The nightly backup now proves crash receipts survive the disk, the chaos soak's verdict lands this morning, and the GPU task queue is learning the harness's JSON contract. Devlog and radar loop back on schedule.
+Right now: the rebuilt lab runs as a two-node cluster — a Raspberry Pi dispatching compute units, a Nintendo Switch across the LAN doing the CUDA. The first 24-hour chaos soak came back green with every landed fault recovered, and a second soak is closing out on the fixed harness before the GPU queue learns the JSON contract. Devlog and radar loop back on schedule.
 
 **Featured repos**
 
