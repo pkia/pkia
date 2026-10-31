@@ -1,6 +1,6 @@
 ### EV
 
-Right now: the two-node cluster speaks two dialects — the Pi dispatches compute units, and the Switch's Tegra serves GPT-2 and Qwen2.5-0.5B from hand-written PTX behind an OpenAI-compatible endpoint. The second chaos soak stacked 322 green cycles before a deadline bug in its own harness ended it by hand, and the fix shipped with drills that can tell a landed kill from a miss. Next on the board: teaching the queue a GPU task type.
+Right now: the cluster's second chaos soak came back green — all 53 injected faults landed and every one recovered, each corroborated out-of-band against the Pi journal and the Switch worker's own logs. The Tegra still serves GPT-2 and Qwen2.5-0.5B from hand-written PTX behind an OpenAI-compatible endpoint. Next on the board: teaching the coordinator queue a first-class GPU task type.
 
 **Featured repos**
 
