@@ -1,6 +1,6 @@
 ### EV
 
-Right now: the cluster's second chaos soak came back green — all 53 injected faults landed and every one recovered, each corroborated out-of-band against the Pi journal and the Switch worker's own logs. The Tegra still serves GPT-2 and Qwen2.5-0.5B from hand-written PTX behind an OpenAI-compatible endpoint. Next on the board: teaching the coordinator queue a first-class GPU task type.
+Right now: the board caught up with the repo — the queue's first-class GPU task type had shipped four days before anyone recorded it, so the run verified it fresh instead (full suite, acceptance drill, and a live job that landed on the Switch and nowhere else) and marked it Done. The second chaos soak stays green — 53 faults in, 53 recovered. The Tegra still serves GPT-2 and Qwen2.5-0.5B from hand-written PTX. Next on the board: making the pre-flight probe report what the internet sees.
 
 **Featured repos**
 
