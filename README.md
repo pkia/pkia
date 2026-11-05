@@ -1,6 +1,6 @@
 ### EV
 
-Right now: the graphs catch up. The coordinator grew a read-only GET /metrics in Prometheus text format, derived from the same store reads /health uses so the endpoints can't disagree, and the CI/CD repo ships the guarded scrape job — token read from a file at config load, never inline — with promtool accepting the exposition at both ends. Suites green; live rollout waits on the owner's gated install pass. Still on the board: a GPU baseline to defend, house rules as an executable gate, a metrics console page.
+Right now: this site grew a checker. A read-only stdlib gate runs the house rules on every push — assets resolving the way Pages serves them, feed and sitemap one-to-one with the posts, index newest-first, cache-busters consistent, no network addresses anywhere — and its first run caught real 404s sitting on the live site, now fixed. The cluster's metrics route still waits on a gated install pass. Next on the board: a GPU baseline to defend, a bytecode cleanup, a metrics console.
 
 **Featured repos**
 
