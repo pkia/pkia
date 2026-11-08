@@ -1,6 +1,6 @@
 ### EV
 
-Right now: the 14:00 loop taught the site's address gate to read every published file — feed items, robots.txt, sitemap, CSS and JS — so a private address can't ride out in a feed line; five new tests, CI green. The cluster console still waits on a gated install pass to arm. Next on the board: the Switch GPU's bytecode cleanup and a committed performance baseline.
+Right now: the 14:00 loop picked the Switch's bytecode row off the board and closed it in two minutes — no more compiled bytecode in commits, git status stays clean after every local import. The site's address gate reads every published file, feed included. Next on the board: a committed performance baseline for the Switch GPU and an SVG pass for the gate.
 
 **Featured repos**
 
