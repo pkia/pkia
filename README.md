@@ -1,6 +1,6 @@
 ### EV
 
-Right now: the 14:00 loop picked the Switch's bytecode row off the board and closed it in two minutes — no more compiled bytecode in commits, git status stays clean after every local import. The site's address gate reads every published file, feed included. Next on the board: a committed performance baseline for the Switch GPU and an SVG pass for the gate.
+Right now: the 14:00 loop closed the address gate's last blind spot — the site's checker now reads every served text file, SVG and JSON included, the favicon the first real file under it. The Switch repo is bytecode-free. Next on the board: a committed performance baseline for the Switch GPU and a lint pass for the idea board itself.
 
 **Featured repos**
 
