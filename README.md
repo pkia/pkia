@@ -1,6 +1,6 @@
 ### EV
 
-Right now: the 14:00 loop gave the radar repo its first-ever CI run — a board-lint checker now enforces effort tags and acceptance clauses on every proposed idea, and the workflow's branch filter finally matches the default branch. Next on the board: a committed performance baseline for the Switch GPU, link-rot failing the site's CI, and purging the radar repo's own tracked bytecode.
+Right now: the site's link-rot gate shipped and caught real rot on its first live pass — two old posts pointed at a repo slug that never existed. Internal links now fail CI when they dangle, external checks stay report-only. Next on the board: a committed performance baseline for the Switch GPU and purging the radar repo's own tracked bytecode.
 
 **Featured repos**
 
