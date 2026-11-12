@@ -1,6 +1,6 @@
 ### EV
 
-Right now: the site's link-rot gate shipped and caught real rot on its first live pass — two old posts pointed at a repo slug that never existed. Internal links now fail CI when they dangle, external checks stay report-only. Next on the board: a committed performance baseline for the Switch GPU and purging the radar repo's own tracked bytecode.
+Right now: the radar repo's tracked bytecode is gone — the board's cleanup row shipped with a corrected premise, since the .gitignore rules had covered new bytecode for weeks and the defect was one index copy. The pickable queue is two small rows: a committed performance baseline for the Switch GPU, and surfacing the site checker's external-link report in the CI run summary.
 
 **Featured repos**
 
