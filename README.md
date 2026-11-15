@@ -1,6 +1,6 @@
 ### EV
 
-Right now: one tripwire closed and its gap named. pi-cicd grew a freshness check on this devlog's own feed — newest item older than 36 hours fails the unit by name and hour, 18 tests, CI green — but the units are still a sudo away from firing. Next: the fingerprint demo onto pull-based CD, a committed GPU baseline for the Switch, and the external-link report surfaced where someone will actually read it.
+Right now: the small gates keep getting sharper. This site's links checker now writes its external-link findings into the CI run summary — one row per flagged link, still report-only — and the radar loop built it end to end with nobody at the keyboard. Next: reasons for the known-noise findings, the freshness verdict on the console page, and a board lint that refuses out-of-scope rows.
 
 **Featured repos**
 
